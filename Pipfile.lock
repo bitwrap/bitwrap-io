@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "84582c9103b445bfe2d67b46c7f4887a8c8a9de220540ca729a369469e36f48e"
+            "sha256": "11b7847ae61415a4b892a6a1049609a5470ca9573ce44e8120a87899bf79e1db"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -29,14 +29,6 @@
                 "sha256:e0d0eb91441a3b53dab4d9b743eafc1ac44476296a2053b6ca3af0b139faf87b"
             ],
             "version": "==18.1.0"
-        },
-        "autobahn": {
-            "hashes": [
-                "sha256:7fc6aafaccab44cbe5ef904cd18e9cbc8a8c4ae0451c3d1499eebd50f8922cac",
-                "sha256:f027887715628d82ba83af218eb0483ed70cc1e9a277df318be3b5346f2c115c"
-            ],
-            "index": "pypi",
-            "version": "==18.5.1"
         },
         "automat": {
             "hashes": [
@@ -205,13 +197,6 @@
             ],
             "index": "pypi",
             "version": "==18.4.0"
-        },
-        "txaio": {
-            "hashes": [
-                "sha256:4797f9f6a9866fe887c96abc0110a226dd5744c894dc3630870542597ad30853",
-                "sha256:c25acd6c2ef7005a0cd50fa2b65deac409be2f3886e2fcd04f99fae827b179e4"
-            ],
-            "version": "==2.10.0"
         },
         "urllib3": {
             "hashes": [
