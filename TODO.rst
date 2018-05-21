@@ -23,6 +23,8 @@ BACKLOG
 ICEBOX
 -------
 
+* add E-Tags for all responses - set proper 304 status instead of 200
+  * NOTE: could this be done by an upstream websever like nginx instead?
 
 * remove all other string substitions from ./storage/postgres.py
   in favor of using composable features of psycopg2 :
