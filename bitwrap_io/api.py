@@ -117,8 +117,7 @@ class Config(Resource):
             'endpoint': os.environ.get('ENDPOINT', ''),
             'version': VERSION,
             'stage': stage,
-            'use_websocket': False # FIXME
-            # Error during WebSocket handshake: Unexpected response code: 200
+            'use_websocket': False # no clean integration w/ Twisted/Flask websockets investating porting to asyncio
         }
         return res, 200, None
 
