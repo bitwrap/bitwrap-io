@@ -75,7 +75,7 @@ class Draw(object):
                     _defs = editor.instance.transition_defs
 
                 _coords = _defs[refid]['position']
-                _defs[refid]['position'] = [int(_coords[0] + delta[0]), int(_coords[1] + delta[1])]
+                _defs[refid]['position'] = [int(_coords[0]) + delta[0], int(_coords[1]) + delta[1]]
             except:
                 pass
             finally:
