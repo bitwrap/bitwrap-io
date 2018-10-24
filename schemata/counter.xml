@@ -2,7 +2,7 @@
 <pnml>
   <net>
     <token blue="0" green="0" id="Default" red="0"/>
-    <place id="P0">
+    <place id="p0">
       <graphics>
         <position x="105" y="30"/>
       </graphics>
@@ -10,7 +10,7 @@
         <graphics>
           <offset x="0.0" y="0.0"/>
         </graphics>
-        <value>P0</value>
+        <value>p0</value>
       </name>
       <capacity>
         <value>0</value>
@@ -22,7 +22,7 @@
         <value>Default,0</value>
       </initialMarking>
     </place>
-    <place id="P1">
+    <place id="p1">
       <graphics>
         <position x="105" y="122"/>
       </graphics>
@@ -30,7 +30,7 @@
         <graphics>
           <offset x="0.0" y="0.0"/>
         </graphics>
-        <value>P1</value>
+        <value>p1</value>
       </name>
       <capacity>
         <value>0</value>
@@ -146,7 +146,7 @@
         <value>1.0</value>
       </rate>
     </transition>
-    <arc id="INC_0 to P0" source="INC_0" target="P0">
+    <arc id="INC_0 to p0" source="INC_0" target="p0">
       <arcpath curvepoint="false" id="source" x="43" y="30"/>
       <arcpath curvepoint="false" id="target" x="105" y="30"/>
       <type value="normal"/>
@@ -154,7 +154,7 @@
         <value>Default,1</value>
       </inscription>
     </arc>
-    <arc id="INC_1 to P1" source="INC_1" target="P1">
+    <arc id="INC_1 to p1" source="INC_1" target="p1">
       <arcpath curvepoint="false" id="source" x="43" y="122"/>
       <arcpath curvepoint="false" id="target" x="105" y="122"/>
       <type value="normal"/>
@@ -162,7 +162,7 @@
         <value>Default,1</value>
       </inscription>
     </arc>
-    <arc id="P1 to DEC_1" source="P1" target="DEC_1">
+    <arc id="p1 to DEC_1" source="p1" target="DEC_1">
       <arcpath curvepoint="false" id="source" x="105" y="122"/>
       <arcpath curvepoint="false" id="target" x="185" y="124"/>
       <type value="normal"/>
@@ -170,7 +170,7 @@
         <value>Default,1</value>
       </inscription>
     </arc>
-    <arc id="P0 to DEC_0" source="P0" target="DEC_0">
+    <arc id="p0 to DEC_0" source="p0" target="DEC_0">
       <arcpath curvepoint="false" id="source" x="105" y="30"/>
       <arcpath curvepoint="false" id="target" x="180" y="30"/>
       <type value="normal"/>
