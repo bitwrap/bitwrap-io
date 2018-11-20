@@ -13,10 +13,10 @@ def options(opts=None):
         if optkey not in opts:
             opts[optkey] = os.environ.get(key, default)
 
-    _opt('pg-host', 'POSTGRES_HOST', '127.0.0.1')
-    _opt('pg-username', 'POSTGRES_USER', 'bitwrap')
-    _opt('pg-database', 'POSTGRES_DB', 'bitwrap')
-    _opt('pg-password', 'POSTGRES_PASS', 'bitwrap')
+    _opt('pg-host', 'PGHOST', '127.0.0.1')
+    _opt('pg-username', 'PGUSER', 'bitwrap')
+    _opt('pg-database', 'PGDATABASE', 'bitwrap')
+    _opt('pg-password', 'PGPASSWORD', 'bitwrap')
     _opt('listen-port', 'LISTEN_PORT', '8080')
     _opt('listen-ip', 'LISTEN_IP', '0.0.0.0')
 

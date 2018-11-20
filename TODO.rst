@@ -1,15 +1,16 @@
 **last updated**
 
-Wed Jun  6 04:11:19 CDT 2018
+Tue Jul  3 09:52:55 CDT 2018
 ----------------------------
 
 WIP
 ---
 
-* require authentication
+* add octofree schema
 
 BACKLOG
 -------
+* require authentication
 
 * ACL on schema creation / all RPC commands
 
