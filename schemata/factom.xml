@@ -2,6 +2,126 @@
 <pnml>
   <net>
     <token blue="0" green="0" id="Default" red="0"/>
+    <place id="CHAIN_HEADS">
+      <graphics>
+        <position x="482" y="326"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>CHAIN_HEADS</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <place id="EC">
+      <graphics>
+        <position x="478" y="151"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>EC</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <place id="ELECTION">
+      <graphics>
+        <position x="1017" y="476"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>ELECTION</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <place id="ENTRY">
+      <graphics>
+        <position x="420" y="486"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>ENTRY</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <place id="FCT">
+      <graphics>
+        <position x="481" y="240"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>FCT</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <place id="FCT_balance_ticker">
+      <graphics>
+        <position x="182" y="291"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>FCT_balance_ticker</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
     <place id="P0">
       <graphics>
         <position x="274" y="47"/>
@@ -82,46 +202,6 @@
         <value>Default,0</value>
       </initialMarking>
     </place>
-    <place id="ENTRY">
-      <graphics>
-        <position x="420" y="486"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>ENTRY</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="coinbase_ticker">
-      <graphics>
-        <position x="1008" y="106"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>coinbase_ticker</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,5</value>
-      </initialMarking>
-    </place>
     <place id="P4">
       <graphics>
         <position x="478" y="621"/>
@@ -131,26 +211,6 @@
           <offset x="0.0" y="0.0"/>
         </graphics>
         <value>P4</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="CHAIN_HEADS">
-      <graphics>
-        <position x="482" y="326"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>CHAIN_HEADS</value>
       </name>
       <capacity>
         <value>0</value>
@@ -262,46 +322,6 @@
         <value>Default,0</value>
       </initialMarking>
     </place>
-    <place id="FCT_balance_ticker">
-      <graphics>
-        <position x="182" y="291"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>FCT_balance_ticker</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="leaders">
-      <graphics>
-        <position x="841" y="397"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>leaders</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
     <place id="REVEAL">
       <graphics>
         <position x="638" y="488"/>
@@ -311,66 +331,6 @@
           <offset x="0.0" y="0.0"/>
         </graphics>
         <value>REVEAL</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="pending_grants">
-      <graphics>
-        <position x="1022" y="223"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>pending_grants</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="dbheight">
-      <graphics>
-        <position x="1243" y="49"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>dbheight</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="FCT">
-      <graphics>
-        <position x="481" y="240"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>FCT</value>
       </name>
       <capacity>
         <value>0</value>
@@ -402,6 +362,66 @@
         <value>Default,0</value>
       </initialMarking>
     </place>
+    <place id="coinbase_ticker">
+      <graphics>
+        <position x="1008" y="106"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>coinbase_ticker</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,5</value>
+      </initialMarking>
+    </place>
+    <place id="dbheight">
+      <graphics>
+        <position x="1243" y="49"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>dbheight</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <place id="leaders">
+      <graphics>
+        <position x="841" y="397"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>leaders</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
     <place id="payout_ticker">
       <graphics>
         <position x="784" y="168"/>
@@ -422,35 +442,15 @@
         <value>Default,0</value>
       </initialMarking>
     </place>
-    <place id="ELECTION">
+    <place id="pending_grants">
       <graphics>
-        <position x="1017" y="476"/>
+        <position x="1022" y="223"/>
       </graphics>
       <name>
         <graphics>
           <offset x="0.0" y="0.0"/>
         </graphics>
-        <value>ELECTION</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="EC">
-      <graphics>
-        <position x="478" y="151"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>EC</value>
+        <value>pending_grants</value>
       </name>
       <capacity>
         <value>0</value>
