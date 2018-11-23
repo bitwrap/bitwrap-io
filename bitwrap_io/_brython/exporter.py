@@ -10,7 +10,9 @@ class Export(object):
         self.instance = instance
 
     def _append_places(self, doc, net):
-        for name, attr  in self.instance.place_defs.items():
+        for name  in sorted(self.instance.place_defs.keys()):
+            attr = self.instance.place_defs[name]
+
             place = doc.createElement('place')
             place.setAttribute('id', name)
             net.appendChild(place)
