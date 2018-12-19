@@ -72,3 +72,4 @@ twisted/plugins/dropin.cache
 *.rc
 *.venv
 *.env
+*.idea

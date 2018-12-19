@@ -33,17 +33,17 @@ class StreamTest(TestCase):
     def test_eventstream(self):
         """ query eventstream """
         eventstream = self.count_event.storage.db.events.fetchall('foo')
-        self.assertEquals(len(eventstream), self.num_events)
+        self.assertEqual(len(eventstream), self.num_events)
 
     def test_event_by_id(self):
         """ get single event """
         first_event = self.count_event.storage.db.events.fetch(self.events[0]['id'])
 
-        self.assertEquals(first_event['id'], self.events[0]['id'])
-        self.assertEquals(first_event['seq'], 1)
-        self.assertEquals(first_event['oid'], self.stream)
-        self.assertEquals(first_event['action'], 'INC_0')
-        self.assertEquals(first_event['payload']['testing'], 'foo')
+        self.assertEqual(first_event['id'], self.events[0]['id'])
+        self.assertEqual(first_event['seq'], 1)
+        self.assertEqual(first_event['oid'], self.stream)
+        self.assertEqual(first_event['action'], 'INC_0')
+        self.assertEqual(first_event['payload']['testing'], 'foo')
         self.assertTrue('timestamp' in first_event)
 
     def test_state(self):
@@ -53,10 +53,10 @@ class StreamTest(TestCase):
         last_event = self.count_event.storage.db.events.fetch(self.events[last_seq]['id'])
 
         self.assertTrue(state['id'], last_event['id'])
-        self.assertEquals(state['rev'], 10)
-        self.assertEquals(state['oid'], self.stream)
-        self.assertEquals(state['action'], 'INC_0')
-        self.assertEquals(state['payload']['testing'], 'foo')
-        self.assertEquals(state['modified'], last_event['timestamp'])
+        self.assertEqual(state['rev'], 10)
+        self.assertEqual(state['oid'], self.stream)
+        self.assertEqual(state['action'], 'INC_0')
+        self.assertEqual(state['payload']['testing'], 'foo')
+        self.assertEqual(state['modified'], last_event['timestamp'])
         self.assertTrue('created' in state)
 

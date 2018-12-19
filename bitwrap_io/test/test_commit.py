@@ -26,7 +26,7 @@ class CommitTest(TestCase):
         count_event = rpc.eventstore(self.schema)
         res = count_event(oid='foo', action='INC_0')
         self.assertTrue('id' not in res)
-        self.assertEquals(res['__err__'], 'INVALID_INPUT')
+        self.assertEqual(res['__err__'], 'INVALID_INPUT')
 
     def test_commit_unknown_action(self):
         """ try to append an event to a stream that doesn't exist """
@@ -35,7 +35,7 @@ class CommitTest(TestCase):
 
         res = count_event(oid='foo', action='ACTION_THAT_DOES_NOT_EXIST')
         self.assertTrue('id' not in res)
-        self.assertEquals(res['__err__'], 'INVALID_INPUT')
+        self.assertEqual(res['__err__'], 'INVALID_INPUT')
 
     def test_commit_invalid_action(self):
         """
@@ -46,7 +46,7 @@ class CommitTest(TestCase):
 
         res = count_event(oid='foo', action='DEC_0')
         self.assertTrue('id' not in res)
-        self.assertEquals(res['__err__'], 'INVALID_OUTPUT')
+        self.assertEqual(res['__err__'], 'INVALID_OUTPUT')
 
     def test_valid_commit(self):
         """ append event to eventstore db with pre-existing stream"""
@@ -57,12 +57,12 @@ class CommitTest(TestCase):
 
         self.assertTrue('__err__' not in res)
         self.assertTrue('id' in res)
-        self.assertEquals(res['rev'], 1)
-        self.assertEquals(res['oid'], self.stream)
+        self.assertEqual(res['rev'], 1)
+        self.assertEqual(res['oid'], self.stream)
 
         res = count_event(oid='foo', action='INC_0')
 
         self.assertTrue('__err__' not in res)
         self.assertTrue('id' in res)
-        self.assertEquals(res['rev'], 2)
-        self.assertEquals(res['oid'], self.stream)
+        self.assertEqual(res['rev'], 2)
+        self.assertEqual(res['oid'], self.stream)
