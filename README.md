@@ -15,6 +15,6 @@ bitwrap eventstore API using [Flask](http://flask.pocoo.org/) and [SocketIO](htt
 
 ### Features
 
-* Visual State machine designer *does not yet save back to server*
+* Visual State machine designer
 * Eventstore using a relational DB
 * Websocket support for observing event streams

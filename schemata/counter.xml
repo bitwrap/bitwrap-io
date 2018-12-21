@@ -4,7 +4,7 @@
     <token blue="0" green="0" id="Default" red="0"/>
     <place id="p0">
       <graphics>
-        <position x="105" y="30"/>
+        <position x="113" y="30"/>
       </graphics>
       <name>
         <graphics>
@@ -24,7 +24,7 @@
     </place>
     <place id="p1">
       <graphics>
-        <position x="105" y="122"/>
+        <position x="112" y="123"/>
       </graphics>
       <name>
         <graphics>
@@ -148,7 +148,7 @@
     </transition>
     <arc id="INC_0 to p0" source="INC_0" target="p0">
       <arcpath curvepoint="false" id="source" x="43" y="30"/>
-      <arcpath curvepoint="false" id="target" x="105" y="30"/>
+      <arcpath curvepoint="false" id="target" x="113" y="30"/>
       <type value="normal"/>
       <inscription>
         <value>Default,1</value>
@@ -156,14 +156,14 @@
     </arc>
     <arc id="INC_1 to p1" source="INC_1" target="p1">
       <arcpath curvepoint="false" id="source" x="43" y="122"/>
-      <arcpath curvepoint="false" id="target" x="105" y="122"/>
+      <arcpath curvepoint="false" id="target" x="112" y="123"/>
       <type value="normal"/>
       <inscription>
         <value>Default,1</value>
       </inscription>
     </arc>
     <arc id="p1 to DEC_1" source="p1" target="DEC_1">
-      <arcpath curvepoint="false" id="source" x="105" y="122"/>
+      <arcpath curvepoint="false" id="source" x="112" y="123"/>
       <arcpath curvepoint="false" id="target" x="185" y="124"/>
       <type value="normal"/>
       <inscription>
@@ -171,7 +171,7 @@
       </inscription>
     </arc>
     <arc id="p0 to DEC_0" source="p0" target="DEC_0">
-      <arcpath curvepoint="false" id="source" x="105" y="30"/>
+      <arcpath curvepoint="false" id="source" x="113" y="30"/>
       <arcpath curvepoint="false" id="target" x="180" y="30"/>
       <type value="normal"/>
       <inscription>

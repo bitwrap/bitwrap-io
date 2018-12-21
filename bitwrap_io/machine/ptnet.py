@@ -25,7 +25,7 @@ def schema_list():
 class PTNet(object):
     """ p/t net """
 
-    pnml_path = os.environ.get('pnml_path', os.path.abspath(__file__ + '/../../../schemata'))
+    pnml_path = os.environ.get('PNML_PATH', os.path.abspath(__file__ + '/../../../schemata'))
 
     def __init__(self, name):
         self.name = name

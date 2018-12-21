@@ -1,0 +1,266 @@
+<?xml version="1.0" ?>
+<pnml>
+  <net>
+    <token blue="0" green="0" id="Default" red="0"/>
+    <place id="ACCEPTED">
+      <graphics>
+        <position x="439" y="74"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>ACCEPTED</value>
+      </name>
+      <capacity>
+        <value>1</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <place id="NEW">
+      <graphics>
+        <position x="70" y="95"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>NEW</value>
+      </name>
+      <capacity>
+        <value>1</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,1</value>
+      </initialMarking>
+    </place>
+    <place id="OPEN">
+      <graphics>
+        <position x="252" y="98"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>OPEN</value>
+      </name>
+      <capacity>
+        <value>1</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <place id="PRICE">
+      <graphics>
+        <position x="444" y="225"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>PRICE</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <place id="REJECTED">
+      <graphics>
+        <position x="440" y="149"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>REJECTED</value>
+      </name>
+      <capacity>
+        <value>1</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <transition id="HALT">
+      <graphics>
+        <position x="347" y="150"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>HALT</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <transition id="EXEC">
+      <graphics>
+        <position x="171" y="97"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>EXEC</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <transition id="SOLD">
+      <graphics>
+        <position x="347" y="74"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>SOLD</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <transition id="BID">
+      <graphics>
+        <position x="346" y="226"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>BID</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <arc id="OPEN to HALT" source="OPEN" target="HALT">
+      <arcpath curvepoint="false" id="source" x="252" y="98"/>
+      <arcpath curvepoint="false" id="target" x="347" y="150"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="HALT to REJECTED" source="HALT" target="REJECTED">
+      <arcpath curvepoint="false" id="source" x="347" y="150"/>
+      <arcpath curvepoint="false" id="target" x="440" y="149"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="NEW to EXEC" source="NEW" target="EXEC">
+      <arcpath curvepoint="false" id="source" x="70" y="95"/>
+      <arcpath curvepoint="false" id="target" x="171" y="97"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="EXEC to OPEN" source="EXEC" target="OPEN">
+      <arcpath curvepoint="false" id="source" x="171" y="97"/>
+      <arcpath curvepoint="false" id="target" x="252" y="98"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="SOLD to ACCEPTED" source="SOLD" target="ACCEPTED">
+      <arcpath curvepoint="false" id="source" x="347" y="74"/>
+      <arcpath curvepoint="false" id="target" x="439" y="74"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="OPEN to SOLD" source="OPEN" target="SOLD">
+      <arcpath curvepoint="false" id="source" x="252" y="98"/>
+      <arcpath curvepoint="false" id="target" x="347" y="74"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="BID to PRICE" source="BID" target="PRICE">
+      <arcpath curvepoint="false" id="source" x="346" y="226"/>
+      <arcpath curvepoint="false" id="target" x="444" y="225"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+  </net>
+</pnml>

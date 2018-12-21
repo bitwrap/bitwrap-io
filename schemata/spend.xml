@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<pnml>
+  <net>
+    <token blue="0" green="0" id="Default" red="0"/>
+    <place id="HALTED">
+      <graphics>
+        <position x="151" y="112"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>HALTED</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <place id="PAYMENT">
+      <graphics>
+        <position x="223" y="79"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>PAYMENT</value>
+      </name>
+      <capacity>
+        <value>0</value>
+      </capacity>
+      <initialMarking>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>Default,0</value>
+      </initialMarking>
+    </place>
+    <transition id="EXEC">
+      <graphics>
+        <position x="84" y="79"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>EXEC</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <arc id="EXEC to PAYMENT" source="EXEC" target="PAYMENT">
+      <arcpath curvepoint="false" id="source" x="84" y="79"/>
+      <arcpath curvepoint="false" id="target" x="223" y="79"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+  </net>
+</pnml>
