@@ -44,7 +44,7 @@
     </place>
     <place id="HALTED">
       <graphics>
-        <position x="61" y="135"/>
+        <position x="223" y="405"/>
       </graphics>
       <name>
         <graphics>
@@ -128,6 +128,136 @@
         <value>1.0</value>
       </rate>
     </transition>
+    <transition id="?1">
+      <graphics>
+        <position x="335" y="52"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>?1</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <transition id="?2">
+      <graphics>
+        <position x="338" y="137"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>?2</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <transition id="?0">
+      <graphics>
+        <position x="334" y="407"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>?0</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <transition id="?3">
+      <graphics>
+        <position x="337" y="221"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>?3</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <transition id="?4">
+      <graphics>
+        <position x="339" y="307"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>?4</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
     <transition id="WARN">
       <graphics>
         <position x="70" y="221"/>
@@ -165,6 +295,46 @@
     <arc id="TIP to KARMA" source="TIP" target="KARMA">
       <arcpath curvepoint="false" id="source" x="69" y="54"/>
       <arcpath curvepoint="false" id="target" x="209" y="138"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="PAYMENT to ?1" source="PAYMENT" target="?1">
+      <arcpath curvepoint="false" id="source" x="201" y="53"/>
+      <arcpath curvepoint="false" id="target" x="335" y="52"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="KARMA to ?2" source="KARMA" target="?2">
+      <arcpath curvepoint="false" id="source" x="209" y="138"/>
+      <arcpath curvepoint="false" id="target" x="338" y="137"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="HALTED to ?0" source="HALTED" target="?0">
+      <arcpath curvepoint="false" id="source" x="223" y="405"/>
+      <arcpath curvepoint="false" id="target" x="334" y="407"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="CHARITY to ?3" source="CHARITY" target="?3">
+      <arcpath curvepoint="false" id="source" x="214" y="220"/>
+      <arcpath curvepoint="false" id="target" x="337" y="221"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="ANTIKARMA to ?4" source="ANTIKARMA" target="?4">
+      <arcpath curvepoint="false" id="source" x="220" y="305"/>
+      <arcpath curvepoint="false" id="target" x="339" y="307"/>
       <type value="normal"/>
       <inscription>
         <value>Default,1</value>

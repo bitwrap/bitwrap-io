@@ -13,7 +13,7 @@
         <value>ACCEPTED</value>
       </name>
       <capacity>
-        <value>1</value>
+        <value>0</value>
       </capacity>
       <initialMarking>
         <graphics>
@@ -33,7 +33,7 @@
         <value>NEW</value>
       </name>
       <capacity>
-        <value>1</value>
+        <value>0</value>
       </capacity>
       <initialMarking>
         <graphics>
@@ -53,7 +53,7 @@
         <value>OPEN</value>
       </name>
       <capacity>
-        <value>1</value>
+        <value>0</value>
       </capacity>
       <initialMarking>
         <graphics>
@@ -93,7 +93,7 @@
         <value>REJECTED</value>
       </name>
       <capacity>
-        <value>1</value>
+        <value>0</value>
       </capacity>
       <initialMarking>
         <graphics>
@@ -180,6 +180,84 @@
         <value>1.0</value>
       </rate>
     </transition>
+    <transition id="?0">
+      <graphics>
+        <position x="549" y="74"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>?0</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <transition id="?1">
+      <graphics>
+        <position x="550" y="149"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>?1</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
+    <transition id="?2">
+      <graphics>
+        <position x="173" y="214"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>?2</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
     <transition id="BID">
       <graphics>
         <position x="346" y="226"/>
@@ -249,6 +327,30 @@
     <arc id="OPEN to SOLD" source="OPEN" target="SOLD">
       <arcpath curvepoint="false" id="source" x="252" y="98"/>
       <arcpath curvepoint="false" id="target" x="347" y="74"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="ACCEPTED to ?0" source="ACCEPTED" target="?0">
+      <arcpath curvepoint="false" id="source" x="439" y="74"/>
+      <arcpath curvepoint="false" id="target" x="549" y="74"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="REJECTED to ?1" source="REJECTED" target="?1">
+      <arcpath curvepoint="false" id="source" x="440" y="149"/>
+      <arcpath curvepoint="false" id="target" x="550" y="149"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="OPEN to ?2" source="OPEN" target="?2">
+      <arcpath curvepoint="false" id="source" x="252" y="98"/>
+      <arcpath curvepoint="false" id="target" x="173" y="214"/>
       <type value="normal"/>
       <inscription>
         <value>Default,1</value>

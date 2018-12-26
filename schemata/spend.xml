@@ -4,7 +4,7 @@
     <token blue="0" green="0" id="Default" red="0"/>
     <place id="HALTED">
       <graphics>
-        <position x="151" y="112"/>
+        <position x="151" y="134"/>
       </graphics>
       <name>
         <graphics>
@@ -68,9 +68,43 @@
         <value>1.0</value>
       </rate>
     </transition>
+    <transition id="?0">
+      <graphics>
+        <position x="371" y="132"/>
+      </graphics>
+      <name>
+        <graphics>
+          <offset x="0.0" y="0.0"/>
+        </graphics>
+        <value>?0</value>
+      </name>
+      <infiniteServer>
+        <value>false</value>
+      </infiniteServer>
+      <timed>
+        <value>false</value>
+      </timed>
+      <priority>
+        <value>1</value>
+      </priority>
+      <orientation>
+        <value>0</value>
+      </orientation>
+      <rate>
+        <value>1.0</value>
+      </rate>
+    </transition>
     <arc id="EXEC to PAYMENT" source="EXEC" target="PAYMENT">
       <arcpath curvepoint="false" id="source" x="84" y="79"/>
       <arcpath curvepoint="false" id="target" x="223" y="79"/>
+      <type value="normal"/>
+      <inscription>
+        <value>Default,1</value>
+      </inscription>
+    </arc>
+    <arc id="HALTED to ?0" source="HALTED" target="?0">
+      <arcpath curvepoint="false" id="source" x="151" y="134"/>
+      <arcpath curvepoint="false" id="target" x="371" y="132"/>
       <type value="normal"/>
       <inscription>
         <value>Default,1</value>
