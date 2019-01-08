@@ -73,3 +73,4 @@ twisted/plugins/dropin.cache
 *.venv
 *.env
 *.idea
+.vscode
