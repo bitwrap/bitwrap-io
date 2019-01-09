@@ -1,1656 +1,1656 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pnml>
-  <net>
-    <token blue="0" green="0" id="Default" red="0"/>
-    <place id="CHAIN_HEADS">
-      <graphics>
-        <position x="482" y="326"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>CHAIN_HEADS</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="EC">
-      <graphics>
-        <position x="478" y="151"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>EC</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="ELECTION">
-      <graphics>
-        <position x="1017" y="476"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>ELECTION</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="ENTRY">
-      <graphics>
-        <position x="420" y="486"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>ENTRY</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="FCT">
-      <graphics>
-        <position x="481" y="240"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>FCT</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="FCT_balance_ticker">
-      <graphics>
-        <position x="182" y="291"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>FCT_balance_ticker</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="P0">
-      <graphics>
-        <position x="274" y="47"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>P0</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,1</value>
-      </initialMarking>
-    </place>
-    <place id="P1">
-      <graphics>
-        <position x="107" y="199"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>P1</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="P2">
-      <graphics>
-        <position x="78" y="420"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>P2</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="P3">
-      <graphics>
-        <position x="247" y="592"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>P3</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="P4">
-      <graphics>
-        <position x="478" y="621"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>P4</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="P5">
-      <graphics>
-        <position x="747" y="615"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>P5</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="P6">
-      <graphics>
-        <position x="975" y="606"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>P6</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="P7">
-      <graphics>
-        <position x="1203" y="568"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>P7</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="P8">
-      <graphics>
-        <position x="1282" y="359"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>P8</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="P9">
-      <graphics>
-        <position x="1204" y="139"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>P9</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="REVEAL">
-      <graphics>
-        <position x="638" y="488"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>REVEAL</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="auditors">
-      <graphics>
-        <position x="847" y="320"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>auditors</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="coinbase_ticker">
-      <graphics>
-        <position x="1008" y="106"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>coinbase_ticker</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,5</value>
-      </initialMarking>
-    </place>
-    <place id="dbheight">
-      <graphics>
-        <position x="1243" y="49"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>dbheight</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="leaders">
-      <graphics>
-        <position x="841" y="397"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>leaders</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="payout_ticker">
-      <graphics>
-        <position x="784" y="168"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>payout_ticker</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <place id="pending_grants">
-      <graphics>
-        <position x="1022" y="223"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>pending_grants</value>
-      </name>
-      <capacity>
-        <value>0</value>
-      </capacity>
-      <initialMarking>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>Default,0</value>
-      </initialMarking>
-    </place>
-    <transition id="grant_cancel">
-      <graphics>
-        <position x="1146" y="279"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>grant_cancel</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="rm_auditor">
-      <graphics>
-        <position x="953" y="320"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>rm_auditor</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="election_success">
-      <graphics>
-        <position x="1125" y="442"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>election_success</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="new_election">
-      <graphics>
-        <position x="894" y="474"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>new_election</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="entry_ack">
-      <graphics>
-        <position x="734" y="491"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>entry_ack</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="ec_ack">
-      <graphics>
-        <position x="589" y="149"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>ec_ack</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="grant_confirm">
-      <graphics>
-        <position x="1140" y="168"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>grant_confirm</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="election_fail">
-      <graphics>
-        <position x="1127" y="516"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>election_fail</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="COINBASE">
-      <graphics>
-        <position x="895" y="102"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>COINBASE</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="add_auditor">
-      <graphics>
-        <position x="723" y="320"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>add_auditor</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="add_grants">
-      <graphics>
-        <position x="897" y="221"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>add_grants</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="add_leader">
-      <graphics>
-        <position x="725" y="395"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>add_leader</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="fct_ack">
-      <graphics>
-        <position x="592" y="242"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>fct_ack</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="commit_perm_balances">
-      <graphics>
-        <position x="240" y="349"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>commit_perm_balances</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="T0">
-      <graphics>
-        <position x="176" y="116"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>T0</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="rm_leader">
-      <graphics>
-        <position x="952" y="397"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>rm_leader</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="T1">
-      <graphics>
-        <position x="55" y="289"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>T1</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="T2">
-      <graphics>
-        <position x="157" y="519"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>T2</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="chain_ack">
-      <graphics>
-        <position x="585" y="325"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>chain_ack</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="T3">
-      <graphics>
-        <position x="372" y="614"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>T3</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="DIR_BLOCK">
-      <graphics>
-        <position x="1083" y="51"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>DIR_BLOCK</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="T4">
-      <graphics>
-        <position x="615" y="619"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>T4</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="T5">
-      <graphics>
-        <position x="860" y="609"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>T5</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="T6">
-      <graphics>
-        <position x="1087" y="599"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>T6</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="T7">
-      <graphics>
-        <position x="1274" y="471"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>T7</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="T8">
-      <graphics>
-        <position x="1283" y="249"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>T8</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="add_entry">
-      <graphics>
-        <position x="295" y="477"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>add_entry</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="create_chain">
-      <graphics>
-        <position x="379" y="325"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>create_chain</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="ec_txn">
-      <graphics>
-        <position x="390" y="149"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>ec_txn</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="entry_reveal">
-      <graphics>
-        <position x="530" y="487"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>entry_reveal</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <transition id="fct_txn">
-      <graphics>
-        <position x="384" y="241"/>
-      </graphics>
-      <name>
-        <graphics>
-          <offset x="0.0" y="0.0"/>
-        </graphics>
-        <value>fct_txn</value>
-      </name>
-      <infiniteServer>
-        <value>false</value>
-      </infiniteServer>
-      <timed>
-        <value>false</value>
-      </timed>
-      <priority>
-        <value>1</value>
-      </priority>
-      <orientation>
-        <value>0</value>
-      </orientation>
-      <rate>
-        <value>1.0</value>
-      </rate>
-    </transition>
-    <arc id="pending_grants to grant_cancel" source="pending_grants" target="grant_cancel">
-      <arcpath curvepoint="false" id="source" x="1022" y="223"/>
-      <arcpath curvepoint="false" id="target" x="1146" y="279"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="auditors to rm_auditor" source="auditors" target="rm_auditor">
-      <arcpath curvepoint="false" id="source" x="847" y="320"/>
-      <arcpath curvepoint="false" id="target" x="953" y="320"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="ELECTION to election_success" source="ELECTION" target="election_success">
-      <arcpath curvepoint="false" id="source" x="1017" y="476"/>
-      <arcpath curvepoint="false" id="target" x="1125" y="442"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="new_election to ELECTION" source="new_election" target="ELECTION">
-      <arcpath curvepoint="false" id="source" x="894" y="474"/>
-      <arcpath curvepoint="false" id="target" x="1017" y="476"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="REVEAL to entry_ack" source="REVEAL" target="entry_ack">
-      <arcpath curvepoint="false" id="source" x="638" y="488"/>
-      <arcpath curvepoint="false" id="target" x="734" y="491"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="EC to ec_ack" source="EC" target="ec_ack">
-      <arcpath curvepoint="false" id="source" x="478" y="151"/>
-      <arcpath curvepoint="false" id="target" x="589" y="149"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="pending_grants to grant_confirm" source="pending_grants" target="grant_confirm">
-      <arcpath curvepoint="false" id="source" x="1022" y="223"/>
-      <arcpath curvepoint="false" id="target" x="1140" y="168"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="ELECTION to election_fail" source="ELECTION" target="election_fail">
-      <arcpath curvepoint="false" id="source" x="1017" y="476"/>
-      <arcpath curvepoint="false" id="target" x="1127" y="516"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="coinbase_ticker to COINBASE" source="coinbase_ticker" target="COINBASE">
-      <arcpath curvepoint="false" id="source" x="1008" y="106"/>
-      <arcpath curvepoint="false" id="target" x="895" y="102"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,5</value>
-      </inscription>
-    </arc>
-    <arc id="COINBASE to payout_ticker" source="COINBASE" target="payout_ticker">
-      <arcpath curvepoint="false" id="source" x="895" y="102"/>
-      <arcpath curvepoint="false" id="target" x="784" y="168"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="add_auditor to auditors" source="add_auditor" target="auditors">
-      <arcpath curvepoint="false" id="source" x="723" y="320"/>
-      <arcpath curvepoint="false" id="target" x="847" y="320"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="add_grants to pending_grants" source="add_grants" target="pending_grants">
-      <arcpath curvepoint="false" id="source" x="897" y="221"/>
-      <arcpath curvepoint="false" id="target" x="1022" y="223"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="payout_ticker to add_grants" source="payout_ticker" target="add_grants">
-      <arcpath curvepoint="false" id="source" x="784" y="168"/>
-      <arcpath curvepoint="false" id="target" x="897" y="221"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="add_leader to leaders" source="add_leader" target="leaders">
-      <arcpath curvepoint="false" id="source" x="725" y="395"/>
-      <arcpath curvepoint="false" id="target" x="841" y="397"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="auditors to add_leader" source="auditors" target="add_leader">
-      <arcpath curvepoint="false" id="source" x="847" y="320"/>
-      <arcpath curvepoint="false" id="target" x="725" y="395"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="FCT to fct_ack" source="FCT" target="fct_ack">
-      <arcpath curvepoint="false" id="source" x="481" y="240"/>
-      <arcpath curvepoint="false" id="target" x="592" y="242"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="FCT_balance_ticker to commit_perm_balances" source="FCT_balance_ticker" target="commit_perm_balances">
-      <arcpath curvepoint="false" id="source" x="182" y="291"/>
-      <arcpath curvepoint="false" id="target" x="240" y="349"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="P0 to T0" source="P0" target="T0">
-      <arcpath curvepoint="false" id="source" x="274" y="47"/>
-      <arcpath curvepoint="false" id="target" x="176" y="116"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="T0 to P1" source="T0" target="P1">
-      <arcpath curvepoint="false" id="source" x="176" y="116"/>
-      <arcpath curvepoint="false" id="target" x="107" y="199"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="leaders to rm_leader" source="leaders" target="rm_leader">
-      <arcpath curvepoint="false" id="source" x="841" y="397"/>
-      <arcpath curvepoint="false" id="target" x="952" y="397"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="P1 to T1" source="P1" target="T1">
-      <arcpath curvepoint="false" id="source" x="107" y="199"/>
-      <arcpath curvepoint="false" id="target" x="55" y="289"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="T1 to P2" source="T1" target="P2">
-      <arcpath curvepoint="false" id="source" x="55" y="289"/>
-      <arcpath curvepoint="false" id="target" x="78" y="420"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="T1 to FCT_balance_ticker" source="T1" target="FCT_balance_ticker">
-      <arcpath curvepoint="false" id="source" x="55" y="289"/>
-      <arcpath curvepoint="false" id="target" x="182" y="291"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="P2 to T2" source="P2" target="T2">
-      <arcpath curvepoint="false" id="source" x="78" y="420"/>
-      <arcpath curvepoint="false" id="target" x="157" y="519"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="T2 to P3" source="T2" target="P3">
-      <arcpath curvepoint="false" id="source" x="157" y="519"/>
-      <arcpath curvepoint="false" id="target" x="247" y="592"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="CHAIN_HEADS to chain_ack" source="CHAIN_HEADS" target="chain_ack">
-      <arcpath curvepoint="false" id="source" x="482" y="326"/>
-      <arcpath curvepoint="false" id="target" x="585" y="325"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="P3 to T3" source="P3" target="T3">
-      <arcpath curvepoint="false" id="source" x="247" y="592"/>
-      <arcpath curvepoint="false" id="target" x="372" y="614"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="T3 to P4" source="T3" target="P4">
-      <arcpath curvepoint="false" id="source" x="372" y="614"/>
-      <arcpath curvepoint="false" id="target" x="478" y="621"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="DIR_BLOCK to P0" source="DIR_BLOCK" target="P0">
-      <arcpath curvepoint="false" id="source" x="1083" y="51"/>
-      <arcpath curvepoint="false" id="target" x="274" y="47"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="DIR_BLOCK to coinbase_ticker" source="DIR_BLOCK" target="coinbase_ticker">
-      <arcpath curvepoint="false" id="source" x="1083" y="51"/>
-      <arcpath curvepoint="false" id="target" x="1008" y="106"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="P9 to DIR_BLOCK" source="P9" target="DIR_BLOCK">
-      <arcpath curvepoint="false" id="source" x="1204" y="139"/>
-      <arcpath curvepoint="false" id="target" x="1083" y="51"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="DIR_BLOCK to dbheight" source="DIR_BLOCK" target="dbheight">
-      <arcpath curvepoint="false" id="source" x="1083" y="51"/>
-      <arcpath curvepoint="false" id="target" x="1243" y="49"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="P4 to T4" source="P4" target="T4">
-      <arcpath curvepoint="false" id="source" x="478" y="621"/>
-      <arcpath curvepoint="false" id="target" x="615" y="619"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="T4 to P5" source="T4" target="P5">
-      <arcpath curvepoint="false" id="source" x="615" y="619"/>
-      <arcpath curvepoint="false" id="target" x="747" y="615"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="P5 to T5" source="P5" target="T5">
-      <arcpath curvepoint="false" id="source" x="747" y="615"/>
-      <arcpath curvepoint="false" id="target" x="860" y="609"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="T5 to P6" source="T5" target="P6">
-      <arcpath curvepoint="false" id="source" x="860" y="609"/>
-      <arcpath curvepoint="false" id="target" x="975" y="606"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="P6 to T6" source="P6" target="T6">
-      <arcpath curvepoint="false" id="source" x="975" y="606"/>
-      <arcpath curvepoint="false" id="target" x="1087" y="599"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="T6 to P7" source="T6" target="P7">
-      <arcpath curvepoint="false" id="source" x="1087" y="599"/>
-      <arcpath curvepoint="false" id="target" x="1203" y="568"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="P7 to T7" source="P7" target="T7">
-      <arcpath curvepoint="false" id="source" x="1203" y="568"/>
-      <arcpath curvepoint="false" id="target" x="1274" y="471"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="T7 to P8" source="T7" target="P8">
-      <arcpath curvepoint="false" id="source" x="1274" y="471"/>
-      <arcpath curvepoint="false" id="target" x="1282" y="359"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="P8 to T8" source="P8" target="T8">
-      <arcpath curvepoint="false" id="source" x="1282" y="359"/>
-      <arcpath curvepoint="false" id="target" x="1283" y="249"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="T8 to P9" source="T8" target="P9">
-      <arcpath curvepoint="false" id="source" x="1283" y="249"/>
-      <arcpath curvepoint="false" id="target" x="1204" y="139"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="add_entry to ENTRY" source="add_entry" target="ENTRY">
-      <arcpath curvepoint="false" id="source" x="295" y="477"/>
-      <arcpath curvepoint="false" id="target" x="420" y="486"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="create_chain to CHAIN_HEADS" source="create_chain" target="CHAIN_HEADS">
-      <arcpath curvepoint="false" id="source" x="379" y="325"/>
-      <arcpath curvepoint="false" id="target" x="482" y="326"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="ec_txn to EC" source="ec_txn" target="EC">
-      <arcpath curvepoint="false" id="source" x="390" y="149"/>
-      <arcpath curvepoint="false" id="target" x="478" y="151"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="ENTRY to entry_reveal" source="ENTRY" target="entry_reveal">
-      <arcpath curvepoint="false" id="source" x="420" y="486"/>
-      <arcpath curvepoint="false" id="target" x="530" y="487"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="entry_reveal to REVEAL" source="entry_reveal" target="REVEAL">
-      <arcpath curvepoint="false" id="source" x="530" y="487"/>
-      <arcpath curvepoint="false" id="target" x="638" y="488"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-    <arc id="fct_txn to FCT" source="fct_txn" target="FCT">
-      <arcpath curvepoint="false" id="source" x="384" y="241"/>
-      <arcpath curvepoint="false" id="target" x="481" y="240"/>
-      <type value="normal"/>
-      <inscription>
-        <value>Default,1</value>
-      </inscription>
-    </arc>
-  </net>
+    <net>
+        <token id="Default" red="0" green="0" blue="0"/>
+        <place id="P0">
+            <graphics>
+                <position x="274.0" y="47.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,1</value>
+            </initialMarking>
+        </place>
+        <place id="P1">
+            <graphics>
+                <position x="107.0" y="199.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="P2">
+            <graphics>
+                <position x="78.0" y="420.0"/>
+            </graphics>
+            <name>
+                <value>P2</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="ENTRY">
+            <graphics>
+                <position x="420.0" y="486.0"/>
+            </graphics>
+            <name>
+                <value>ENTRY</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="P3">
+            <graphics>
+                <position x="247.0" y="592.0"/>
+            </graphics>
+            <name>
+                <value>P3</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="coinbase_ticker">
+            <graphics>
+                <position x="1008.0" y="106.0"/>
+            </graphics>
+            <name>
+                <value>coinbase_ticker</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,5</value>
+            </initialMarking>
+        </place>
+        <place id="P4">
+            <graphics>
+                <position x="478.0" y="621.0"/>
+            </graphics>
+            <name>
+                <value>P4</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="P5">
+            <graphics>
+                <position x="747.0" y="615.0"/>
+            </graphics>
+            <name>
+                <value>P5</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="P6">
+            <graphics>
+                <position x="975.0" y="606.0"/>
+            </graphics>
+            <name>
+                <value>P6</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="P7">
+            <graphics>
+                <position x="1203.0" y="568.0"/>
+            </graphics>
+            <name>
+                <value>P7</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="P8">
+            <graphics>
+                <position x="1282.0" y="359.0"/>
+            </graphics>
+            <name>
+                <value>P8</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="FCT_balance_ticker">
+            <graphics>
+                <position x="182.0" y="291.0"/>
+            </graphics>
+            <name>
+                <value>FCT_balance_ticker</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="P9">
+            <graphics>
+                <position x="1204.0" y="139.0"/>
+            </graphics>
+            <name>
+                <value>P9</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="leaders">
+            <graphics>
+                <position x="841.0" y="397.0"/>
+            </graphics>
+            <name>
+                <value>leaders</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="REVEAL">
+            <graphics>
+                <position x="638.0" y="488.0"/>
+            </graphics>
+            <name>
+                <value>REVEAL</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="CHAIN">
+            <graphics>
+                <position x="482.0" y="326.0"/>
+            </graphics>
+            <name>
+                <value>CHAIN_HEADS</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="pending_grants">
+            <graphics>
+                <position x="1022.0" y="223.0"/>
+            </graphics>
+            <name>
+                <value>pending_grants</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="dbheight">
+            <graphics>
+                <position x="1243.0" y="49.0"/>
+            </graphics>
+            <name>
+                <value>dbheight</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="FCT">
+            <graphics>
+                <position x="481.0" y="240.0"/>
+            </graphics>
+            <name>
+                <value>FCT</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="auditors">
+            <graphics>
+                <position x="847.0" y="320.0"/>
+            </graphics>
+            <name>
+                <value>auditors</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="ELECTION">
+            <graphics>
+                <position x="1017.0" y="476.0"/>
+            </graphics>
+            <name>
+                <value>ELECTION</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="payout_ticker">
+            <graphics>
+                <position x="784.0" y="168.0"/>
+            </graphics>
+            <name>
+                <value>payout_ticker</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <place id="EC">
+            <graphics>
+                <position x="478.0" y="151.0"/>
+            </graphics>
+            <name>
+                <value>EC</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,0</value>
+            </initialMarking>
+        </place>
+        <transition id="grant_cancel">
+            <graphics>
+                <position x="1146.0" y="279.0"/>
+            </graphics>
+            <name>
+                <value>grant_cancel</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="chain_commit">
+            <graphics>
+                <position x="379.0" y="325.0"/>
+            </graphics>
+            <name>
+                <value>create_chain</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="rm_auditor">
+            <graphics>
+                <position x="953.0" y="320.0"/>
+            </graphics>
+            <name>
+                <value>rm_auditor</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="election_success">
+            <graphics>
+                <position x="1125.0" y="442.0"/>
+            </graphics>
+            <name>
+                <value>election_success</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="new_election">
+            <graphics>
+                <position x="894.0" y="474.0"/>
+            </graphics>
+            <name>
+                <value>new_election</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="chain_reveal">
+            <graphics>
+                <position x="585.0" y="325.0"/>
+            </graphics>
+            <name>
+                <value>chain_ack</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="1k_marker">
+            <graphics>
+                <position x="739.0" y="529.0"/>
+            </graphics>
+            <name>
+                <value>T9</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="grant_confirm">
+            <graphics>
+                <position x="1140.0" y="168.0"/>
+            </graphics>
+            <name>
+                <value>grant_confirm</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="election_fail">
+            <graphics>
+                <position x="1127.0" y="516.0"/>
+            </graphics>
+            <name>
+                <value>election_fail</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="COINBASE">
+            <graphics>
+                <position x="895.0" y="102.0"/>
+            </graphics>
+            <name>
+                <value>COINBASE</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="add_auditor">
+            <graphics>
+                <position x="723.0" y="320.0"/>
+            </graphics>
+            <name>
+                <value>add_auditor</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="add_grants">
+            <graphics>
+                <position x="897.0" y="221.0"/>
+            </graphics>
+            <name>
+                <value>add_grants</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="add_leader">
+            <graphics>
+                <position x="725.0" y="395.0"/>
+            </graphics>
+            <name>
+                <value>add_leader</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="commit_perm_balances">
+            <graphics>
+                <position x="240.0" y="349.0"/>
+            </graphics>
+            <name>
+                <value>commit_perm_balances</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="T0">
+            <graphics>
+                <position x="176.0" y="116.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="rm_leader">
+            <graphics>
+                <position x="952.0" y="397.0"/>
+            </graphics>
+            <name>
+                <value>rm_leader</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="T1">
+            <graphics>
+                <position x="55.0" y="289.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="ec_reveal">
+            <graphics>
+                <position x="589.0" y="149.0"/>
+            </graphics>
+            <name>
+                <value>ec_ack</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="entry_commit">
+            <graphics>
+                <position x="295.0" y="477.0"/>
+            </graphics>
+            <name>
+                <value>add_entry</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="T2">
+            <graphics>
+                <position x="157.0" y="519.0"/>
+            </graphics>
+            <name>
+                <value>T2</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="T3">
+            <graphics>
+                <position x="372.0" y="614.0"/>
+            </graphics>
+            <name>
+                <value>T3</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="DIR_BLOCK">
+            <graphics>
+                <position x="1083.0" y="51.0"/>
+            </graphics>
+            <name>
+                <value>DIR_BLOCK</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="T4">
+            <graphics>
+                <position x="615.0" y="619.0"/>
+            </graphics>
+            <name>
+                <value>T4</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="T5">
+            <graphics>
+                <position x="860.0" y="609.0"/>
+            </graphics>
+            <name>
+                <value>T5</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="T6">
+            <graphics>
+                <position x="1087.0" y="599.0"/>
+            </graphics>
+            <name>
+                <value>T6</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="T7">
+            <graphics>
+                <position x="1274.0" y="471.0"/>
+            </graphics>
+            <name>
+                <value>T7</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="T8">
+            <graphics>
+                <position x="1283.0" y="249.0"/>
+            </graphics>
+            <name>
+                <value>T8</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="fct_commit">
+            <graphics>
+                <position x="384.0" y="241.0"/>
+            </graphics>
+            <name>
+                <value>fct_txn</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="entry_reveal">
+            <graphics>
+                <position x="530.0" y="487.0"/>
+            </graphics>
+            <name>
+                <value>entry_reveal</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="fct_reveal">
+            <graphics>
+                <position x="592.0" y="242.0"/>
+            </graphics>
+            <name>
+                <value>fct_ack</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <transition id="ec_commit">
+            <graphics>
+                <position x="390.0" y="149.0"/>
+            </graphics>
+            <name>
+                <value>ec_txn</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+        </transition>
+        <arc id="T1 to P2" source="T1" target="P2">
+            <arcpath id="" x="60.0" y="319.0" curvePoint="false"/>
+            <arcpath id="" x="89.0" y="420.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="add_entry to ENTRY" source="entry_commit" target="ENTRY">
+            <arcpath id="" x="305.0" y="492.0" curvePoint="false"/>
+            <arcpath id="" x="420.0" y="500.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="DIR_BLOCK to dbheight" source="DIR_BLOCK" target="dbheight">
+            <arcpath id="" x="1093.0" y="66.0" curvePoint="false"/>
+            <arcpath id="" x="1243.0" y="64.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T8 to P9" source="T8" target="P9">
+            <arcpath id="" x="1288.0" y="249.0" curvePoint="false"/>
+            <arcpath id="" x="1227.0" y="167.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="add_auditor to auditors" source="add_auditor" target="auditors">
+            <arcpath id="" x="733.0" y="335.0" curvePoint="false"/>
+            <arcpath id="" x="847.0" y="335.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="create_chain to CHAIN_HEADS" source="chain_commit" target="CHAIN">
+            <arcpath id="" x="389.0" y="340.0" curvePoint="false"/>
+            <arcpath id="" x="482.0" y="341.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="add_leader to leaders" source="add_leader" target="leaders">
+            <arcpath id="" x="735.0" y="410.0" curvePoint="false"/>
+            <arcpath id="" x="841.0" y="412.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T1 to FCT_balance_ticker" source="T1" target="FCT_balance_ticker">
+            <arcpath id="" x="65.0" y="304.0" curvePoint="false"/>
+            <arcpath id="" x="182.0" y="306.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="entry_reveal to REVEAL" source="entry_reveal" target="REVEAL">
+            <arcpath id="" x="540.0" y="502.0" curvePoint="false"/>
+            <arcpath id="" x="638.0" y="503.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T2 to P3" source="T2" target="P3">
+            <arcpath id="" x="167.0" y="534.0" curvePoint="false"/>
+            <arcpath id="" x="250.0" y="598.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T6 to P7" source="T6" target="P7">
+            <arcpath id="" x="1097.0" y="614.0" curvePoint="false"/>
+            <arcpath id="" x="1203.0" y="587.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="add_grants to pending_grants" source="add_grants" target="pending_grants">
+            <arcpath id="" x="907.0" y="236.0" curvePoint="false"/>
+            <arcpath id="" x="1022.0" y="238.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T5 to P6" source="T5" target="P6">
+            <arcpath id="" x="870.0" y="624.0" curvePoint="false"/>
+            <arcpath id="" x="975.0" y="621.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="DIR_BLOCK to coinbase_ticker" source="DIR_BLOCK" target="coinbase_ticker">
+            <arcpath id="" x="1083.0" y="66.0" curvePoint="false"/>
+            <arcpath id="" x="1034.0" y="111.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="new_election to ELECTION" source="new_election" target="ELECTION">
+            <arcpath id="" x="904.0" y="489.0" curvePoint="false"/>
+            <arcpath id="" x="1017.0" y="491.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="COINBASE to payout_ticker" source="COINBASE" target="payout_ticker">
+            <arcpath id="" x="895.0" y="117.0" curvePoint="false"/>
+            <arcpath id="" x="812.0" y="175.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T3 to P4" source="T3" target="P4">
+            <arcpath id="" x="382.0" y="629.0" curvePoint="false"/>
+            <arcpath id="" x="478.0" y="635.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="ec_txn to EC" source="ec_commit" target="EC">
+            <arcpath id="" x="400.0" y="164.0" curvePoint="false"/>
+            <arcpath id="" x="478.0" y="166.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="fct_txn to FCT" source="fct_commit" target="FCT">
+            <arcpath id="" x="394.0" y="256.0" curvePoint="false"/>
+            <arcpath id="" x="481.0" y="255.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T7 to P8" source="T7" target="P8">
+            <arcpath id="" x="1279.0" y="471.0" curvePoint="false"/>
+            <arcpath id="" x="1295.0" y="389.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T0 to P1" source="T0" target="P1">
+            <arcpath id="" x="181.0" y="146.0" curvePoint="false"/>
+            <arcpath id="" x="131.0" y="202.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T4 to P5" source="T4" target="P5">
+            <arcpath id="" x="625.0" y="634.0" curvePoint="false"/>
+            <arcpath id="" x="747.0" y="630.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="DIR_BLOCK to P0" source="DIR_BLOCK" target="P0">
+            <arcpath id="" x="1083.0" y="66.0" curvePoint="false"/>
+            <arcpath id="" x="304.0" y="62.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="payout_ticker to add_grants" source="payout_ticker" target="add_grants">
+            <arcpath id="" x="812.0" y="190.0" curvePoint="false"/>
+            <arcpath id="" x="897.0" y="236.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P1 to T1" source="P1" target="T1">
+            <arcpath id="" x="113.0" y="226.0" curvePoint="false"/>
+            <arcpath id="" x="60.0" y="289.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="ENTRY to entry_reveal" source="ENTRY" target="entry_reveal">
+            <arcpath id="" x="450.0" y="501.0" curvePoint="false"/>
+            <arcpath id="" x="530.0" y="502.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P3 to T3" source="P3" target="T3">
+            <arcpath id="" x="277.0" y="610.0" curvePoint="false"/>
+            <arcpath id="" x="372.0" y="629.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P5 to T5" source="P5" target="T5">
+            <arcpath id="" x="777.0" y="629.0" curvePoint="false"/>
+            <arcpath id="" x="860.0" y="624.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="FCT_balance_ticker to commit_perm_balances" source="FCT_balance_ticker" target="commit_perm_balances">
+            <arcpath id="" x="207.0" y="318.0" curvePoint="false"/>
+            <arcpath id="" x="245.0" y="349.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P0 to T0" source="P0" target="T0">
+            <arcpath id="" x="276.0" y="70.0" curvePoint="false"/>
+            <arcpath id="" x="186.0" y="131.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P8 to T8" source="P8" target="T8">
+            <arcpath id="" x="1296.0" y="359.0" curvePoint="false"/>
+            <arcpath id="" x="1288.0" y="279.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="REVEAL TO mod1000" source="REVEAL" target="1k_marker">
+            <arcpath id="" x="667.0" y="509.0" curvePoint="false"/>
+            <arcpath id="" x="739.0" y="544.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1000</value>
+            </inscription>
+        </arc>
+        <arc id="CHAIN_HEADS to chain_ack" source="CHAIN" target="chain_reveal">
+            <arcpath id="" x="512.0" y="341.0" curvePoint="false"/>
+            <arcpath id="" x="585.0" y="340.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="FCT to fct_ack" source="FCT" target="fct_reveal">
+            <arcpath id="" x="511.0" y="255.0" curvePoint="false"/>
+            <arcpath id="" x="592.0" y="257.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P2 to T2" source="P2" target="T2">
+            <arcpath id="" x="102.0" y="447.0" curvePoint="false"/>
+            <arcpath id="" x="162.0" y="519.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P9 to DIR_BLOCK" source="P9" target="DIR_BLOCK">
+            <arcpath id="" x="1207.0" y="146.0" curvePoint="false"/>
+            <arcpath id="" x="1093.0" y="66.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="EC to ec_ack" source="EC" target="ec_reveal">
+            <arcpath id="" x="508.0" y="166.0" curvePoint="false"/>
+            <arcpath id="" x="589.0" y="164.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="pending_grants to grant_cancel" source="pending_grants" target="grant_cancel">
+            <arcpath id="" x="1050.0" y="245.0" curvePoint="false"/>
+            <arcpath id="" x="1146.0" y="294.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="auditors to add_leader" source="auditors" target="add_leader">
+            <arcpath id="" x="849.0" y="342.0" curvePoint="false"/>
+            <arcpath id="" x="735.0" y="410.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="pending_grants to grant_confirm" source="pending_grants" target="grant_confirm">
+            <arcpath id="" x="1050.0" y="231.0" curvePoint="false"/>
+            <arcpath id="" x="1140.0" y="183.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P7 to T7" source="P7" target="T7">
+            <arcpath id="" x="1226.0" y="570.0" curvePoint="false"/>
+            <arcpath id="" x="1279.0" y="501.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P6 to T6" source="P6" target="T6">
+            <arcpath id="" x="1005.0" y="620.0" curvePoint="false"/>
+            <arcpath id="" x="1087.0" y="614.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="auditors to rm_auditor" source="auditors" target="rm_auditor">
+            <arcpath id="" x="877.0" y="335.0" curvePoint="false"/>
+            <arcpath id="" x="953.0" y="335.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="leaders to rm_leader" source="leaders" target="rm_leader">
+            <arcpath id="" x="871.0" y="412.0" curvePoint="false"/>
+            <arcpath id="" x="952.0" y="412.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="ELECTION to election_success" source="ELECTION" target="election_success">
+            <arcpath id="" x="1046.0" y="486.0" curvePoint="false"/>
+            <arcpath id="" x="1125.0" y="457.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="ELECTION to election_fail" source="ELECTION" target="election_fail">
+            <arcpath id="" x="1046.0" y="497.0" curvePoint="false"/>
+            <arcpath id="" x="1127.0" y="531.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P4 to T4" source="P4" target="T4">
+            <arcpath id="" x="508.0" y="636.0" curvePoint="false"/>
+            <arcpath id="" x="615.0" y="634.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="coinbase_ticker to COINBASE" source="coinbase_ticker" target="COINBASE">
+            <arcpath id="" x="1008.0" y="121.0" curvePoint="false"/>
+            <arcpath id="" x="905.0" y="117.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,5</value>
+            </inscription>
+        </arc>
+    </net>
 </pnml>
