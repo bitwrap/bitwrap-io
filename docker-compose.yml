@@ -2,7 +2,7 @@
 version: '2'
 services:
   postgres:
-    image: postgres:10
+    image: postgres:11.1
     hostname: bitwrap-postgres
     ports:
       - 5432:5432
