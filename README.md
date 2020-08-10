@@ -4,7 +4,7 @@ A state-machine eventstore 'blockchain style'.
 
 Using Markov chains stored in a Postgres database.
 
-Read the whitepaper [Solving 'State Exposion' with Petri-Nets and Vector Clocks](https://github.com/bitwrap/bitwrap-io/blob/master/whitepaper.md)
+Read the whitepaper [Solving 'State Explosion' with Petri-Nets and Vector Clocks](https://github.com/bitwrap/bitwrap-io/blob/master/whitepaper.md)
 
 ### Status
 
